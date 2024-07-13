@@ -29,11 +29,23 @@ img {
 
 .container{
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap:52px;
+}
+
+.sub{
+  max-width:200px;
 }
 
 .image{
   display:flex;
+}
+.title{
+  margin-bottom:32px;
+}
+
+body{
+  text-align:center;
 }
 
 /* .container div{
